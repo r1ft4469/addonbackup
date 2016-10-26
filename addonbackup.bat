@@ -47,5 +47,9 @@ del Program.7z
 MOVE %temp%\wow_install\WoW_Settings.exe %SAVE_TO%
 CD ..
 RMDIR /S /Q wow_install\
+cd %SAVE_TO%
+git add WoW_Settings.exe
+git commit -a -m Update
+git push
 ECHO Done Backing WoW Settings to %SAVE_TO%
 PAUSE
