@@ -28,7 +28,7 @@ setlocal & pushd .
 cd /d %~dp0
 if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
 
-SET SAVE_TO="%userprofile%\Google Drive\"
+SET SAVE_TO="%userprofile%\Google Drive\Projects\WoWAddons\"
 ECHO Ready to Backup Addons and Settings for World of Warcraft
 ECHO Backing up to %SAVE_TO%
 PAUSE
