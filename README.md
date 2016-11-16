@@ -1,2 +1,2 @@
 # addonbackup
-addonbackup batch script
+Batch Script for backing up WoW addons
