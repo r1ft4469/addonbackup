@@ -38,9 +38,9 @@ XCOPY /Q /E ".\addonbackup" %temp%\wow_install\
 MKLINK /D %temp%\wow_install\Bin\WTF "%PROGRAMFILES(X86)%\World of Warcraft\WTF"
 MKLINK /D %temp%\wow_install\Bin\Interface "%PROGRAMFILES(X86)%\World of Warcraft\Interface"
 CD %temp%\wow_install\
-upx --ultra-brute 7zsd.sfx 
+upx --ultra-brute 7zsd.sfx
 cd Bin
-..\7za a -mx=9 "..\Program.7z" * 
+..\7za a -mx=9 "..\Program.7z" *
 cd ..
 copy /b 7zsd.sfx + Config.txt + Program.7z WoW_Settings.exe
 del Program.7z

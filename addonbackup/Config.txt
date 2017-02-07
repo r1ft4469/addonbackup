@@ -1,4 +1,4 @@
 ﻿;!@Install@!UTF-8!
 GUIMode="1"
-RunProgram="wow_addon.bat" 
+RunProgram="wow_addon.bat"
 ;!@InstallEnd@!
